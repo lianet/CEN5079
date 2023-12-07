@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleaningServicesAPI", "CleaningServicesAPI\CleaningServicesAPI.csproj", "{EB99083D-7218-4C33-91CA-49EAC87FD0C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleaningServices", "CleaningServices\CleaningServices.csproj", "{A4EAFAAF-408A-4226-BF51-3131221BFB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB99083D-7218-4C33-91CA-49EAC87FD0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB99083D-7218-4C33-91CA-49EAC87FD0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB99083D-7218-4C33-91CA-49EAC87FD0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB99083D-7218-4C33-91CA-49EAC87FD0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EAFAAF-408A-4226-BF51-3131221BFB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EAFAAF-408A-4226-BF51-3131221BFB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EAFAAF-408A-4226-BF51-3131221BFB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EAFAAF-408A-4226-BF51-3131221BFB32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0E15E05-63D0-4CAD-A3CD-F6B6A67316B4}
+	EndGlobalSection
+EndGlobal
