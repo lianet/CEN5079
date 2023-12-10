@@ -5,7 +5,7 @@ const stripe = Stripe("pk_test_51OEY5FEU0SXAQ8qqCOpaEKtv0yMO5ziRcAeLEndfhVtK8tiT
 
 // Create a Checkout Session as soon as the page loads
 async function initialize(priceid) {
-
+    $("#btnHome").show();
   const response = await fetch("https://localhost:44317/CheckoutApi?prodid="+priceid , {
     method: "POST",
 	

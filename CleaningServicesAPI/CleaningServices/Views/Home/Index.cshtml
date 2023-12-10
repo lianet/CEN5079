@@ -1,16 +1,82 @@
 ﻿<div class="row">
     <div class="col-sm">
-        <h1 class="mdc-page-title">Cleaning Services</h1>
+        <h1 class="mdc-page-title"></h1>
 
         <div class="row">
             <div class="col-3">
+                <img style="width:200px; height:200px" src="~/images/cleaning-service-3591146_1280.png" />
             </div>
-            <div class="col-4">
+            <div class="col-6">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <!-- Display a payment form -->
+                        <div id="checkout">
+                            <!-- Checkout will insert the payment form here -->
+                        </div>
+                        <a id="btnHome" href="@Url.Action("Index","Home")" class="btn btn-sm mdc-button--gray ">Home</a>
+                    </div>
 
+                </div>
                 <div id="payBtns">
                     <div class="d-grid gap-2  mx-auto">
-                        <button id="prod11" class="btn btn-primary" type="button">Service 1</button>
-                        <button id="prod12" class="btn btn-primary" type="button">Service 2</button>
+                        <h1>The Cleaning Services</h1>
+                        <p >
+                            <strong >The Cleaning Services for a Happy & Healthy Home</strong>   <br />
+                            <br />When you’re short on time, the last thing you want to worry about is home cleaning. Rediscover the joys of life and embrace a happy and healthy home with the help of The Cleaning Services®. We are a cleaning service in Miami that re-energizes your home and your life by giving you back the time you deserve to enjoy the things you love.
+                        </p>
+                        <div >
+                            <h5>  Full List of Services:</h5>
+                          
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                Detailed cleaning 
+                            </div>
+                            <div class="card-body">
+                               
+                                <p class="card-text">
+                                    <h6 class="">Our professional cleaning team will:</h6> 
+                                    Wet-wipe doors, door frames, door knobs, and light switch plates<br />
+                                    Wet-wipe ceiling fans (if accessible), hanging light fixtures, and vents<br />
+                                    Vacuum, edge, and groom carpeting<br />
+                                    Dust and wet-wipe all furniture<br />
+                                    Dust items on furniture and lampshades<br />
+                                    Vacuum tops of drapes or valances<br />
+                                    Vacuum and wash hard surface floors<br />
+                                    Scrub and dry sinks, showers, and fixtures<br />
+                                    Clean the interior and exterior of toilets<br />
+                                    Clean mirrors, glass in picture frames, and any other glass surfaces
+                                </p>
+                                <button id="prod11" class="btn btn-primary m-1 " type="button">Areas less than 1200 sqft Pay $50</button>
+                                <button id="prod12" class="btn btn-primary m-1" type="button">Areas 1200 - 2500 sqft Pay $150</button>
+
+                            </div>
+                        </div>
+@*                         <div class="card">
+                            <div class="card-header">
+                                Detailed cleaning for 
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">
+                                    <h6 class="">Our professional cleaning team will:</h6>
+                                    Wet-wipe doors, door frames, door knobs, and light switch plates<br />
+                                    Wet-wipe ceiling fans (if accessible), hanging light fixtures, and vents<br />
+                                    Vacuum, edge, and groom carpeting<br />
+                                    Dust and wet-wipe all furniture<br />
+                                    Dust items on furniture and lampshades<br />
+                                    Vacuum tops of drapes or valances<br />
+                                    Vacuum and wash hard surface floors<br />
+                                    Scrub and dry sinks, showers, and fixtures<br />
+                                    Clean the interior and exterior of toilets<br />
+                                    Clean mirrors, glass in picture frames, and any other glass surfaces
+                                </p>
+
+                            </div>
+                        </div>
+ *@                        
                     </div>
                 </div>
 
@@ -27,15 +93,6 @@
 
 </div>
 
-<div class="row">
-    <div class="col-3">
-    </div>
-    <div class="col-4">
-        <!-- Display a payment form -->
-        <div id="checkout">
-            <!-- Checkout will insert the payment form here -->
-        </div>
-
-    </div>
-
-</div>
+<script>
+    $("#btnHome").hide();
+</script>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj": {}
+    "C:\\Users\\liane\\Source\\Repos\\CEN5079\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj": {
+    "C:\\Users\\liane\\Source\\Repos\\CEN5079\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj",
+        "projectUniqueName": "C:\\Users\\liane\\Source\\Repos\\CEN5079\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj",
         "projectName": "CleaningServices",
-        "projectPath": "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj",
+        "projectPath": "C:\\Users\\liane\\Source\\Repos\\CEN5079\\CleaningServicesAPI\\CleaningServices\\CleaningServices.csproj",
         "packagesPath": "C:\\Users\\liane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServices\\obj\\",
+        "outputPath": "C:\\Users\\liane\\Source\\Repos\\CEN5079\\CleaningServicesAPI\\CleaningServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liane\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

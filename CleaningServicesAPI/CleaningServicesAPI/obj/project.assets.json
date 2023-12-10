@@ -1071,11 +1071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServicesAPI\\CleaningServicesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\liane\\source\\repos\\CEN5079\\CleaningServicesAPI\\CleaningServicesAPI\\CleaningServicesAPI.csproj",
       "projectName": "CleaningServicesAPI",
-      "projectPath": "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServicesAPI\\CleaningServicesAPI.csproj",
+      "projectPath": "C:\\Users\\liane\\source\\repos\\CEN5079\\CleaningServicesAPI\\CleaningServicesAPI\\CleaningServicesAPI.csproj",
       "packagesPath": "C:\\Users\\liane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\liane\\source\\repos\\CleaningServicesAPI\\CleaningServicesAPI\\obj\\",
+      "outputPath": "C:\\Users\\liane\\source\\repos\\CEN5079\\CleaningServicesAPI\\CleaningServicesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\liane\\AppData\\Roaming\\NuGet\\NuGet.Config",
